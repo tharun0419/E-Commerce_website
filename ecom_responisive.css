@@ -1,0 +1,74 @@
+@media(max-width:1030px){
+    /* css for slider(home) */
+.home .homme-banner-1,
+.home .homme-banner-2{
+    background-position: 65% center;
+    min-height: 550px;
+}
+.home .home-banner .home-banner-text-1{
+    transform: translate(30%, 50%);
+}
+.home .home-banner .home-banner-text-2{
+    transform: translate(-60%, 25%);
+}
+}
+@media(max-width:991px){
+     /* css for slider(home) */
+     .home .homme-banner-1,
+     .home .homme-banner-2{
+    background-position: 65% center;
+    min-height: 450px;
+    }
+     .home .home-banner .home-banner-text-1{
+        text-align: center;
+        width: 100%;
+        transform: translate(-20%, 20%);
+     }
+     .home .home-banner .home-banner-text-2{
+        text-align: center;
+        width: 100%;
+        transform: translate(-40%, 5%);
+     }
+}
+@media(max-width: 767px){
+    /* css for slider(home) */
+    .home .homme-banner-1,
+    .home .homme-banner-2{
+    background-position: 50% center;
+    min-height: 450px;
+}
+    .home .home-banner .home-banner-text-1{
+    text-align: center;
+    width: 100%;
+    transform: translate(-40%, 20%);
+ }
+ .home .home-banner .home-banner-text-1 h1{
+    font-size: 3rem;
+ }
+ .home .home-banner .home-banner-text-1 h2{
+    font-size: 1.2rem;
+ }
+ .home .home-banner .home-banner-text .btn-danger{
+    padding: 0.5rem 1.5rem;
+ }
+ .home .slider-icon{
+    font-size: 2rem;
+ }
+ .home .home-banner .home-banner-text-2{
+    text-align: center;
+    width: 100%;
+    transform: translate(-40%, 20%);
+ }
+ .home .home-banner .home-banner-text-2 h1{
+    font-size: 1.5rem;
+ }
+ .home .home-banner .home-banner-text-2 h2{
+    font-size: 3rem;
+ }
+ .home .home-banner .home-banner-text .btn-danger{
+    padding: 0.5rem 1.5rem;
+ }
+ .home .slider-icon{
+    font-size: 2rem;
+ }
+}
