@@ -271,6 +271,11 @@ transform:scale(1.02);
     transition: all 500ms ease-in-out;
 }
 
+
+.product-list .product-image-change2 img {
+    transition: all 500ms ease-in-out;
+}
+
 /* Done some Alteration to fix the image [5,6] */
 .product-list .product-image-change .product-image-second {
     opacity: 0;
@@ -393,5 +398,44 @@ transform:scale(1.02);
 .product-list .product-name .add_to_Card:hover {
     color: var(--bg-danger);
     border: 1px solid var(--bg-danger);
+}
+
+/* Banner Division */
+.products .banner_division{
+    position: relative;
+}
+
+.products .banner_division::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.products .banner_division img{
+    transition: 0.5s;
+}
+
+.products .banner_division:hover img{
+    transform: scale(1.1);
+}
+
+.products .banner_division h2{
+    color: var(--text-white);
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
 }
 
