@@ -11,6 +11,11 @@
 .home .home-banner .home-banner-text-2{
     transform: translate(-60%, 25%);
 }
+
+/* SPECIAL SECTION */
+.special .timmer_container .timmer li{
+   padding: 24px 16px;
+}
 }
 @media(max-width:991px){
      /* css for slider(home) */
@@ -29,6 +34,13 @@
         width: 100%;
         transform: translate(-40%, 5%);
      }
+/* SPECIAL SECTION */
+.special .timmer_container{
+padding-top: 16px ;
+bottom: 80px ;
+}
+
+
 }
 @media(max-width: 767px){
     /* css for slider(home) */
